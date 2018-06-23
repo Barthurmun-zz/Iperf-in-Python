@@ -19,7 +19,7 @@ local7.*						/var/log/iperf.log
 Support or TCP / UDP (which one to use should be included as an argument passed to script)
 
 example of use:
-./daemoniperf -T -n -i ::1 -t 7 -6
+./daemoniperf -T -n -i ::1 -6
 
 If we chose '-m' it will force our server to listen on multicast address (client with same option
 enabled will send datagram on multicast address), and after initiation of connection rest of transmition
